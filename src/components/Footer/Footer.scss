@@ -1,0 +1,25 @@
+.Footer {
+    position: absolute;
+    bottom: 0px;
+    font-size: 16px;
+
+
+    .smallLink {
+        padding: 0 10px;
+    }
+}
+
+nav {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* transition: 1s; */
+}

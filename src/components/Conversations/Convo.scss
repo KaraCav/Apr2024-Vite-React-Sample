@@ -1,0 +1,18 @@
+.ConvoView {
+
+    .convo-card {
+        border: 3px solid purple;
+        padding: 5px;
+        height: 120px;
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+        img {
+            height: 80px;
+        }
+    }
+}
