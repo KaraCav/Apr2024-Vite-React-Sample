@@ -1,6 +1,7 @@
 # Sample App
 Run `npm install` from the root folder, then `npm run dev`
-Webpage is meant to be viewed on mobile devices, test in browser using DevTools
+
+This webpage is meant to be viewed on mobile devices, test in the browser using DevTools
 
 # React + Vite
 

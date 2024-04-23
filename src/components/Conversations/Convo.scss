@@ -1,4 +1,4 @@
-.ConvoView {
+.RecentConvoView {
 
     .convo-card {
         border: 3px solid purple;
@@ -13,6 +13,39 @@
 
         img {
             height: 80px;
+        }
+    }
+}
+
+.AllConvosView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        margin-bottom: 40px;
+    }
+
+    .allConvosContainer {
+        max-height: 60vh;
+        overflow-y: scroll;
+
+        .convo-card {
+            display: flex;
+            height: 80px;
+            width: 70vw;
+
+            .user-name {
+                margin-left: 40px;
+                font-size: 18px;
+            }
+
+            img {
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
         }
     }
 }

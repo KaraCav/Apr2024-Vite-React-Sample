@@ -1,6 +1,12 @@
 .Home {
-    min-height: 70vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+hr {
+    width: 90vw;
+    padding: 2px;
+    background-color: purple;
 }

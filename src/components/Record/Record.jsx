@@ -16,6 +16,7 @@ function Record() {
             <h1>New Dialogue</h1>
             <section className='record-topic'>
                 <h4>What are we talking about?</h4>
+                <input type="text" placeholder="topic" />
             </section>
             <section className='recording-booth'>
                 <h3>Hi</h3>
