@@ -3,8 +3,16 @@ import './Convo.scss';
 import { default as userConvos } from './sample-all-convo-cards';
 import MessageUserView from '../UserView/MessageUserView';
 import { useNavigate } from 'react-router-dom/dist';
+import http from '../../http/axios-config';
 
 const AllConvos = () => {
+    // made sure frontend Axios can properly call backend - success!
+    http.get('/identity').then(response => console.log(JSON.stringify(response.data)));
+    // http.get('/identity', function (req, res) {
+    //     res.header("Access-Control-Allow-Origin", "*");
+    //     console.log(JSON.stringify(data));
+    // })
+
 
     const navigate = useNavigate();
 

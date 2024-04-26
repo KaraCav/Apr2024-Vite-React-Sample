@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <div className="Header">
-            <img src="./images/purple-border-large.png" className="header-logo" alt="Hear Here logo" />
+            <img src="./images/transparent-beige.png" className="header-logo" alt="Hear Here logo" />
             <h1>{pathname == '/' ? "Home" : null}</h1>
             <h1>{pathname == '/communicate' ? "Communicate" : null}</h1>
             <h1>{pathname == '/record' ? "Record" : null}</h1>
